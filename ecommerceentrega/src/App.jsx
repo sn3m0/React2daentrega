@@ -4,11 +4,9 @@ import GlobalStateContext from "./Context/GlobalStateContext"
 
 function App() {
   return (
-    <div>
     <GlobalStateContext>
-    <Rutas/>
+      <Rutas/>
     </GlobalStateContext>
-  </div>
   )
 }
 

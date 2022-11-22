@@ -13,6 +13,7 @@ export const data = [{
         desc: "Camiseta Charla Geek temporada 1",
         precio: 5,
         img: `${Camiseta}`,
+        category: "remeras"
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ export const data = [{
         desc: "Camiseta alternativa CGT1 del S al XL",
         precio: 5,
         img: `${Camiseta}`,
+        category: "remeras"
     },
     {
         id: 3,
@@ -29,6 +31,7 @@ export const data = [{
         desc: "Hoodie abrigado de CGT1 del S al XL",
         precio: 12,
         img: `${Hoodie}`,
+        category: "hoodies"
     },
     {
         id: 4,
@@ -37,6 +40,7 @@ export const data = [{
         desc: "Hoodie alternativo de CGT1 del S al XL",
         precio: 12,
         img: `${Hoodie}`,
+        category: "hoodies"
     },
     {
         id: 5,
@@ -45,6 +49,7 @@ export const data = [{
         desc: "Campera CGT1 del S al XL",
         precio: 17,
         img: `${Campera}`,
+        category: "camperas"
 
     },
     {
@@ -54,7 +59,7 @@ export const data = [{
         desc: "Campera alternativa del S al XL",
         precio: 17,
         img: `${Campera}`,
-
+        category: "camperas"
     },
     {
         id: 7,
@@ -63,6 +68,7 @@ export const data = [{
         desc: "Mousepad pequeño para oficina",
         precio: 2.5,
         img: `${Mousepad}`,
+        category: "mousepad"
     },
     {
         id: 8,
@@ -71,7 +77,7 @@ export const data = [{
         desc: "Mousepad grande para juegos shooters y moba",
         precio: 6,
         img: `${Mousepad}`,
-
+        category: "mousepad"
     },
     {
         id: 9,
@@ -80,7 +86,7 @@ export const data = [{
         desc: "Clave para activar Gamepass de Microsoft por 30 días",
         precio: 1,
         img: `${Gamepass}`,
-
+        category: "passes"
     },
     {
         id: 10,
@@ -89,7 +95,7 @@ export const data = [{
         desc: "Clave para activar Gamepass de Microsoft por 365 días",
         precio: 10,
         img: `${Gamepass}`,
-
+        category: "passes"
     },
     {
         id: 10,
@@ -98,7 +104,7 @@ export const data = [{
         desc: "Clave para activar Gamepass Ultimate de Microsoft por 365 días",
         precio: 19,
         img: `${Gamepass}`,
-
+        category: "passes"
     },
     {
         id: 10,
@@ -107,6 +113,6 @@ export const data = [{
         desc: "Clave para activar EA Access de EA por 30 días",
         precio: 1.5,
         img: `${Eaacess}`,
-
+        category: "passes"
     },
 ]

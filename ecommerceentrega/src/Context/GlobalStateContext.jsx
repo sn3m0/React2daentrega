@@ -1,6 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
 import { data } from "../config/data";
-import swal from '@sweetalert/with-react'
 export const GlobalContext = createContext("");
 
 const GlobalStateContext = ({ children }) => {
@@ -18,11 +17,7 @@ const GlobalStateContext = ({ children }) => {
 
   function añadirProducto(id) {
     if (carrito.some((juego) => juego.id === id)) {
-      swal({
-        title: "Error!",
-        text: "Ese producto ya está agregado, elegí otro por favor",
-        icon: "warning",
-    })
+      alert("Error, no puedes agregar más de un producto")
     } else {
       const item = data.find((prod) => prod.id === id);
       setCarrito([...carrito, item]);
