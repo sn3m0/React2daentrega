@@ -1,6 +1,7 @@
 import Rutas from "./routes/Rutas"
 import GlobalStateContext from "./Context/GlobalStateContext"
 
+
 function App() {
   return (
     <div>

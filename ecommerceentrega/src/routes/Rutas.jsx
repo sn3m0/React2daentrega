@@ -4,6 +4,7 @@ import Cart from '../componentes/Cart/Cart'
 import Inicio from '../componentes/Inicio/Inicio'
 import Layout from '../componentes/Layout/Layout'
 const Rutas = () => {
+  
   return (
     <>
         <BrowserRouter>
