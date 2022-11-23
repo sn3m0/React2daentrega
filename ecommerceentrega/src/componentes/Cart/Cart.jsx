@@ -31,7 +31,7 @@ return (
   </section>
 )
 }) :
-<h4 className="text-center mt-3 text-white">¡No agregaste ningun producto!</h4> 
+<h4 className="text-center mt-3 text-white">Tu carrito está vacío</h4> 
 }
 {carrito.length > 0 ? (
                 <div className="text-center">
